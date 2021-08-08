@@ -61,3 +61,10 @@ spring:
           uri: http://127.0.0.1:9081/
           predicates:
             - Path=/gxtx_03/**,/gxtx_04/**
+        # 登记单历史单，当前单接口
+        - id: host_route13
+          uri: http://172.24.16.74/
+          predicates:
+            - Path=/git/**
+          filters:
+            - StripPrefix=1
