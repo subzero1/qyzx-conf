@@ -68,7 +68,7 @@ spring:
             - Path=/git/**
           filters:
             - StripPrefix=1
-        - id: host_route13
+        - id: host_route14
           uri: http://172.24.16.74/
           predicates:
             - Path=/git1/**
