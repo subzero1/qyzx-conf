@@ -71,6 +71,6 @@ spring:
         - id: host_route14
           uri: http://172.24.16.74/
           predicates:
-            - Path=/git2/**
+            - Path=/git5/**
           filters:
             - StripPrefix=1
